@@ -6,5 +6,6 @@ class GittiesController < ApplicationController
   end
 
   def new
+    @gittie = Git.new
   end
 end
